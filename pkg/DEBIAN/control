@@ -1,0 +1,13 @@
+Package: aeoru-vpn
+Version: 0.1.0
+Section: net
+Priority: optional
+Architecture: amd64
+Depends: libgtk-4-1 (>= 4.10), libadwaita-1-0 (>= 1.4), wireguard-tools, python3, gir1.2-ayatanaappindicator3-0.1
+Installed-Size: 2216
+Maintainer: AeoruEntity <aeoru@aeoru.com>
+Homepage: https://github.com/AeoruEntity/wireguard-gui
+Description: Aeoru VPN - WireGuard VPN Client
+ A native GTK4/libadwaita desktop application for managing WireGuard VPN
+ connections with system tray integration, connection details, loading
+ overlays, toast notifications, and profile import/export.
