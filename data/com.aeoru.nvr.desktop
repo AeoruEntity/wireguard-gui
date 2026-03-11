@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Aeoru VPN
+Comment=WireGuard VPN Client
+Exec=aeoru-nvr
+Icon=com.aeoru.nvr
+Terminal=false
+Type=Application
+Categories=Utility;Network;
+Keywords=vpn;wireguard;aeoru;

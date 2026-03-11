@@ -1,0 +1,207 @@
+/* Aeoru VPN - WireGuard VPN Client */
+
+.brand-icon {
+    background-color: #3b82f6;
+    border-radius: 8px;
+    min-width: 40px;
+    min-height: 40px;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
+
+.brand-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Connection Panel */
+.conn-panel {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 14px 16px;
+}
+
+.status-text {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.status-online { color: #22c55e; }
+.status-offline { color: #ef4444; }
+.dot-online { color: #22c55e; font-size: 10px; }
+.dot-offline { color: #64748b; font-size: 10px; }
+
+.conn-key {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.conn-value {
+    color: #94a3b8;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* Profiles */
+.section-title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.profile-list {
+    background-color: transparent;
+}
+
+.profile-row {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+
+.profile-row:hover {
+    border-color: #475569;
+}
+
+.profile-name {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 14px;
+    min-height: 0;
+}
+
+.btn-primary:hover {
+    background-color: #2563eb;
+}
+
+.btn-sm {
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: #94a3b8;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 6px 14px;
+}
+
+.btn-ghost:hover {
+    background-color: #334155;
+    color: #f1f5f9;
+}
+
+.btn-danger {
+    background-color: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-weight: 600;
+}
+
+.btn-danger:hover {
+    background-color: #ef4444;
+    color: white;
+}
+
+.btn-icon {
+    min-width: 30px;
+    min-height: 30px;
+    padding: 0;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid #334155;
+    color: #94a3b8;
+}
+
+.btn-icon:hover {
+    background-color: #334155;
+    color: #f1f5f9;
+}
+
+/* Form */
+.form-entry {
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #f1f5f9;
+}
+
+.form-entry:focus-within {
+    border-color: #3b82f6;
+}
+
+.form-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #94a3b8;
+}
+
+.error-text {
+    color: #ef4444;
+    font-size: 12px;
+}
+
+.muted {
+    color: #64748b;
+    font-size: 11px;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.loading-box {
+    background-color: #1e293b;
+    border-radius: 16px;
+    padding: 32px 48px;
+    border: 1px solid #334155;
+}
+
+.loading-text {
+    color: #94a3b8;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+/* Splash Screen */
+.splash-overlay {
+    background-color: #0f172a;
+}
+
+.splash-title {
+    color: #0078ff;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.splash-subtitle {
+    color: #64748b;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* Pulse animation for spinner */
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.5; }
+}
+
+.pulse {
+    animation: pulse 1.5s ease-in-out infinite;
+}
